@@ -1,0 +1,20 @@
+:root {
+  --blue: #92C7CF;
+  --light-blue: #AAD7D9;
+  --pastel: #FBF9F1;
+  --grey: #E5E1DA;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--grey);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
