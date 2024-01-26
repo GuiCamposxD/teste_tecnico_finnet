@@ -35,12 +35,12 @@ Agora é necessário criar um arquivo com o nome ".env" dentro da pasta "Backend
 1. Já dentro da pasta, copie o arquivo ".env.example" e cole no mesmo local de cópia
 1. Renomeie a cópia para ".env"
 1. No arquivo ".env" realize a configuração com o banco de dados
-  - Deixe DB_CONNECTION como sendo mysql
-  - Em DB_HOST coloque localhost
-  - Em DB_PORT coloque a porta em que seu banco de dados está configurado, caso não tenha feito alteração, por padrão é 3306
-  - Em DB_DATABASE coloque library
-  - Em DB_USERNAME coloque seu usuário do banco de dados, por padrão é root
-  - EM DB_PASSWORD coloque a senha do usuário, essa senha você definiu quando instalou o MySQL
+  -Deixe DB_CONNECTION como sendo mysql
+  -Em DB_HOST coloque localhost
+  -Em DB_PORT coloque a porta em que seu banco de dados está configurado, caso não tenha feito alteração, por padrão é 3306
+  -Em DB_DATABASE coloque library
+  -Em DB_USERNAME coloque seu usuário do banco de dados, por padrão é root
+  -EM DB_PASSWORD coloque a senha do usuário, essa senha você definiu quando instalou o MySQL
 
 Para a configuração do ".env", sempre coloque o valor imediatamente depois do sinal de igual ("=") e o valor não precisa estar entre aspas
 
@@ -48,6 +48,7 @@ Com o database configurado, basta rodar:
 ```
 php artisan migrate
 ```
+Isso criará todas as tabelas necessárias no banco de dados.
 
 ### 📦 Executando o Projeto
 
