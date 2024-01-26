@@ -50,7 +50,7 @@ php artisan migrate
 ```
 Isso criará todas as tabelas necessárias no banco de dados.
 
-### 📦 Executando o Projeto
+## 📦 Executando o Projeto
 
 Para executar o projeto basta:
 1. Abra um terminal de sua escolha e navega até pasta do projeto "Backend"
@@ -60,7 +60,7 @@ Para executar o projeto basta:
 
 Após a execução do comando ``` npm run dev ``` uma URL será gerada no console, basta copiar e colar na URL do navegador. Com isso você já estará vendo a interface do projeto.
 
-### 🛠️ Construído com
+## 🛠️ Construído com
 - [Laravel](https://laravel.com/): excelente Framework para desenvolvimento tanto Front-end quanto Back-end, facilita demais a criação de páginas dinâmicas, controle de rota e comunicação com o banco de dados. Nesse projeto, utilizamos o Laravel apenas como uma API, neste caso, ele não é responsável por renderizar páginas para nós, apenas para interceptar requisões HTTP. Ele deixa muito fácil também a criação de API baseadas no padrão MVC, uma vez que quando instalado já vem com um design de pastas próprio para isso, assim como já possui classes base de Controllers e Modelss, outro ponto é possibilitar o uso de migrations de maneira bem simples.
 - [Vue](https://vuejs.org/): excelente Framework para desenvolvimento Front-end, facilita demais a criação de páginas dinâmicas, principalmente quando se tem que renderizar itens após uma chamada da API do Back-end. Outro ponto positivo é que ele já vem com ferramentas para evitar problemas de segurança, pois todo texto que é colocado em um input, o Vue automaticamente higieniza (sanitize) ele.
 - [Vuetify](https://vuetifyjs.com/en/): é usado junto do Vue, é um Framework de componentes, ele já vem com diversos componentes prontos que auxilia muito o desenvolvimento.
