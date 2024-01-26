@@ -35,12 +35,12 @@ Agora é necessário criar um arquivo com o nome ".env" dentro da pasta "Backend
 1. Já dentro da pasta, copie o arquivo ".env.example" e cole no mesmo local de cópia
 1. Renomeie a cópia para ".env"
 1. No arquivo ".env" realize a configuração com o banco de dados
-  -Deixe DB_CONNECTION como sendo mysql
-  -Em DB_HOST coloque localhost
-  -Em DB_PORT coloque a porta em que seu banco de dados está configurado, caso não tenha feito alteração, por padrão é 3306
-  -Em DB_DATABASE coloque library
-  -Em DB_USERNAME coloque seu usuário do banco de dados, por padrão é root
-  -EM DB_PASSWORD coloque a senha do usuário, essa senha você definiu quando instalou o MySQL
+    - Deixe ```DB_CONNECTION=mysql``` como sendo mysql
+    - Em ```DB_HOST=localhost``` coloque localhost ou o host em que seu MySQL está
+    - Em ```DB_PORT=3306```  coloque a porta em que seu banco de dados está configurado, caso não tenha feito alteração, por padrão é 3306
+    - Em ```DB_DATABASE=library``` coloque library
+    - Em ```DB_DATABASE=root``` coloque seu usuário do banco de dados, por padrão é root
+    - EM ```DB_DATABASE=``` coloque a senha do usuário, essa senha você definiu quando instalou o MySQL
 
 Para a configuração do ".env", sempre coloque o valor imediatamente depois do sinal de igual ("=") e o valor não precisa estar entre aspas
 
@@ -56,9 +56,9 @@ Para executar o projeto basta:
 1. Abra um terminal de sua escolha e navega até pasta do projeto "Backend"
 1. Execute ``` php artisan serve ```
 1. Abra outro terminal de sua escolha e navega até pasta do projeto "Frontend"
-1. Execute ``` npm run dev ```
+1. Execute ``` npm run serve ```
 
-Após a execução do comando ``` npm run dev ``` uma URL será gerada no console, basta copiar e colar na URL do navegador. Com isso você já estará vendo a interface do projeto.
+Após a execução do comando ``` npm run serve ``` uma URL será gerada no console, basta copiar e colar na URL do navegador. Com isso você já estará vendo a interface do projeto.
 
 *Observação*: após executar o comando ``` php artisan serve ```, verifique se a URL gerada está de acordo com a que está dentro de "Frontend/src/main.js". É imprescídivel que as URLs sejam a mesma com excessão do "/api" que é o final da URL do arquivo main.js. Se tiver divergência, basta alterar de acordo com a gerada pelo comando executado.
 
